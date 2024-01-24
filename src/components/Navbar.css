@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", sans-serif;
+}
+
+.navbar-container {
+  position: absolute;
+  top: 1.5rem;
+  left: 1rem;
+}
+
+.navbar-link {
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: #1a4c8b;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 0.25rem;
+  transition: background-color 0.3s ease;
+}
+
+.navbar-link:hover {
+  background-color: #2a69b3;
+}
+
+.navbar-link:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(26, 76, 139, 0.5);
+}

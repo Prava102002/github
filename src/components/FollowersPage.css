@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", sans-serif;
+}
+
+.followers-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f7fafc;
+}
+
+.followers-content {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 0.375rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  width: 100%;
+  max-width: 28rem;
+  margin: auto;
+}
+
+.followers-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: #1a4c8b;
+}
+
+.followers-list {
+  list-style: none;
+  padding-top: 1em;
+}
+
+.follower-item {
+  margin-bottom: 1rem;
+}
+
+.follower-info {
+  display: flex;
+  align-items: center;
+}
+
+.follower-avatar {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+}
+
+.follower-username {
+  color: #1a4c8b;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.follower-username:hover {
+  text-decoration: underline;
+}
